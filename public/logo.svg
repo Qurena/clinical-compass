@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Клинический компас">
+  <defs>
+    <linearGradient id="kk-bg" x1="8" y1="2" x2="56" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C5D6F0"/><stop offset="1" stop-color="#6F8FC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="20" fill="url(#kk-bg)"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1.6" stroke-dasharray="1.2 4.4" stroke-linecap="round"/>
+  <!-- роза ветров на кремовой «шерсти»; северный луч — румянец овечки -->
+  <g transform="translate(32 32) scale(.8) translate(-32 -32)">
+    <path d="M32 6 37 27 58 32 37 37 32 58 27 37 6 32 27 27z" fill="#FBF0DC"/>
+    <path d="M32 6 37 27H27z" fill="#F29C8C"/>
+  </g>
+  <circle cx="32" cy="32" r="3.1" fill="#1B2A4E" stroke="#FBF0DC" stroke-width="1.5"/>
+</svg>

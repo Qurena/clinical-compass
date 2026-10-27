@@ -1,0 +1,16 @@
+{
+  "name": "clinical-compass",
+  "version": "0.1.0",
+  "description": "Цифровой ассистент врача для ведения пациентов с тревожно-депрессивной симптоматикой (прототип для кейс-чемпионата «Клинический компас»)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning scripts/dev-preview.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/engine.test.js test/klk.test.js test/api.test.js test/mascot.test.js test/patient-metrics.test.js test/early-safety.test.js test/product-flow.test.js test/alert-sound.test.js test/static.test.js",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js",
+    "loadtest": "node scripts/loadtest.js",
+    "measure": "node --disable-warning=ExperimentalWarning scripts/measure.js"
+  }
+}

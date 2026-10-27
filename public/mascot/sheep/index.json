@@ -1,0 +1,89 @@
+{
+ "note": "Овечка. В public — только UI-спрайты (~480 px, WebP + PNG-запас). Оригиналы (large, без гало), print x2 и @2x PNG неиспользуемых поз вынесены в assets-src/sheep/ (полный индекс: index.full.json).",
+ "ui_poses": {
+  "wave": "wave",
+  "happy": "happy",
+  "cheer": "cheer",
+  "care": "care",
+  "think": "think",
+  "idle": "hello",
+  "side": "side",
+  "back": "back"
+ },
+ "sprites": {
+  "wave": {
+   "ui": "wave-sm.png",
+   "ui2x": "wave-sm@2x.png",
+   "ui_webp": "wave-sm.webp",
+   "ui2x_webp": "wave-sm@2x.webp",
+   "pose": "Приветствие: поднятая лапка, лёгкая улыбка",
+   "source": "IMG_3502.PNG"
+  },
+  "happy": {
+   "ui": "happy-sm.png",
+   "ui2x": "happy-sm@2x.png",
+   "ui_webp": "happy-sm.webp",
+   "ui2x_webp": "happy-sm@2x.webp",
+   "pose": "Радость/успех: анфас, открытый взгляд, улыбка",
+   "source": "IMG_3496.PNG"
+  },
+  "cheer": {
+   "ui": "cheer-sm.png",
+   "ui2x": "cheer-sm@2x.png",
+   "ui_webp": "cheer-sm.webp",
+   "ui2x_webp": "cheer-sm@2x.webp",
+   "pose": "Ликование: глаза зажмурены, обе лапки вверх",
+   "source": "IMG_3500.PNG"
+  },
+  "care": {
+   "ui": "care-sm.png",
+   "ui2x": "care-sm@2x.png",
+   "ui_webp": "care-sm.webp",
+   "ui2x_webp": "care-sm@2x.webp",
+   "pose": "Забота/спокойствие (safety): анфас, мягкий наклон головы",
+   "source": "IMG_3499.PNG"
+  },
+  "think": {
+   "ui": "think-sm.png",
+   "ui_webp": "think-sm.webp",
+   "ui2x_webp": "think-sm@2x.webp",
+   "pose": "Думает: лапка у подбородка",
+   "source": "IMG_3501.PNG"
+  },
+  "hello": {
+   "ui": "hello-sm.png",
+   "ui_webp": "hello-sm.webp",
+   "ui2x_webp": "hello-sm@2x.webp",
+   "pose": "Нейтральная стойка анфас (запасная)",
+   "source": "IMG_3493.PNG"
+  },
+  "side": {
+   "ui": "side-sm.png",
+   "ui_webp": "side-sm.webp",
+   "ui2x_webp": "side-sm@2x.webp",
+   "pose": "Профиль влево, 3/4 вид (запасная)",
+   "source": "IMG_3498.PNG"
+  },
+  "side2": {
+   "ui": "side2-sm.png",
+   "ui_webp": "side2-sm.webp",
+   "ui2x_webp": "side2-sm@2x.webp",
+   "pose": "Профиль влево (запасная)",
+   "source": "IMG_3494.PNG"
+  },
+  "back": {
+   "ui": "back-sm.png",
+   "ui_webp": "back-sm.webp",
+   "ui2x_webp": "back-sm@2x.webp",
+   "pose": "Со спины, хвостик",
+   "source": "IMG_3495.PNG"
+  },
+  "back34": {
+   "ui": "back34-sm.png",
+   "ui_webp": "back34-sm.webp",
+   "ui2x_webp": "back34-sm@2x.webp",
+   "pose": "Со спины в пол-оборота",
+   "source": "IMG_3497.PNG"
+  }
+ }
+}

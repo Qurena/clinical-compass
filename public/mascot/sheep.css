@@ -1,0 +1,13 @@
+/* Овечка: размеры и мягкое покачивание. Только анимация transform, без JS. */
+.sheep { display: block; width: 180px; max-width: 100%; margin: 0 auto; }
+.sheep picture, .sheep img { display: block; width: 100%; height: auto; }
+.sheep img { filter: drop-shadow(0 8px 10px rgba(29, 87, 140, .16)); transform-origin: 50% 100%; animation: sheep-sway 4.8s ease-in-out infinite; }
+.sheep.lg { width: min(240px, 100%); margin-bottom: 12px; }
+.sheep.sm { width: 64px; flex: none; margin: 0; }
+.mascot-card .sheep { width: 100%; max-width: 160px; margin: auto; }
+.safety .sheep.lg { width: 120px; margin: 0 0 6px; }
+.banner.soft .sheep.sm { width: 64px; }
+/* Спокойная поза (safety): без движения. */
+.sheep[data-calm] img { animation: none; }
+@keyframes sheep-sway { 0%, 100% { transform: rotate(-1.2deg) scale(1); } 50% { transform: rotate(1.2deg) scale(1.015); } }
+@media (prefers-reduced-motion: reduce) { .sheep img { animation: none; } }
